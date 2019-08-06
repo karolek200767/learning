@@ -12,9 +12,27 @@ cout << "Podales x = "	 << x  << " y = " << y << endl;
 
 
 int main(int argc, char** argv){
-	
-	
-	
-}	
+chard znak;	
+int x=0 ,y=0;	
 
+
+while(znak !='q'){
+
+cout << "Wybierz pozycje z menu:" << endl;
+cout << "q) aby wpisac" << endl;
+cout << "1) Dodawane" << endl; 
+cout << "2) Odejmowanie" << endl;
+cout << "Mnozenie" << endl;
+cout << "Dzielenie" << endl;
+cin >> znak;
+
+
+
+
+
+
+
+}	
+	
+}
 
