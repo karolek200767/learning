@@ -26,7 +26,16 @@ cout << "Mnozenie" << endl;
 cout << "Dzielenie" << endl;
 cin >> znak;
 
-
+if(znak == '1'){
+cout << " Dodawanie" << endl;	
+wpsz(x,y);
+cout << "" << x << " + " << y << " = " << x+y << endl;
+}
+if(znak == '2'){
+cout << "Odejmowanie" << endl;
+wpisz(x,y);
+cout << "" << x << " - " << y << << x-y << endl; 	
+}
 
 
 
