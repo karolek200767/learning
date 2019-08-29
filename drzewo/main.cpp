@@ -3,11 +3,21 @@ using namespace std;
 //narysuj drzewo kture bendzie sie wyswietlac
 
 int main(int argc, char** argv){	
-for (int i=0;i<11;i++){
-for (int j=0;j<7;j++){cout << "#" ;}
+for (int i=0;i<2;i++)		
+{
+if (i==0) {
+cout << "  " ;	
+}
+if (i==1) {
+cout << " " ;	
+}
+	for (int j=0;j<1;j++)
+	{
+		cout << "#" ;
+	}
 cout << endl;
 }
-	
+
 				
 //int i=0;	
 //for (;i<7;i++){

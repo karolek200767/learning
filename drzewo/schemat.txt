@@ -1,0 +1,21 @@
+   #          i:0    spacje: 3 #: 1
+  ###         i:1    spacje: 2 #: 3
+ #####        i:2    spacje: 1 #: 5
+ #####        i:3    spacje: 1 #: 5
+  ###         i:4    spacje: 2 #: 3
+   #          i:5    spacje: 3 #: 1                           
+   #          i:6    spacje: 3 #: 1
+   #          i:7    spacje: 3 #: 1  
+   #          i:8    spacje: 3 #: 1
+if (i<3) {
+spacje:3-i
+#:i
+}
+if (i>2) oraz i<5{
+spacje:i-2
+if(i==3 )#:5
+if(i==4)#:3
+}
+if(i>4) {
+spacje: 3 #: 1 
+}
