@@ -15,24 +15,43 @@ cout << " " ;
 if (i==1) {
 cout << " " ;	
 }
-	for (int j=0;j<1;j++)
+	for (int j=0;j<=(i+0);j++)
 	{
 		cout << "#" ;
 	}
 cout << endl;
 }
-
-				
-//int i=0;	
-//for (;i<7;i++){
-//for (int s=(0);s<i;s++){
-//cout << " " ;
-//}
-//for (int j=7;j>i;j = j + 1){
-//cout << "#" ;
-//}
-//for (int j=7;j>i;j = j + 1){
-//cout << "#	
+for (int k=0;k<=4;k++) 
+{
+cout << "#" ;	
+}
+cout << endl;
+for (int a=0;a<=4;a++)
+{
+cout << "#" ;	
+}
+cout << endl;
+cout << " " ;
+for(int r=0;r<3;r++)
+{
+ cout << "#" ;	
+}
+cout << endl ;
+cout << "  " ;for (int o=0;o<=0;o++)
+{
+cout << "#" ;	
+}
+cout << endl ;
+cout << "  " ;for (int l=0;l<=0;l++)
+{
+cout <<  "#" ;	
+}
+cout << endl ;
+cout << "  " ;for (int t=0;t<=0;t++)
+{
+cout <<  "#" ;	
+}
+cout << endl ;	
 cout << "  ---------------------------------------" << endl;
 cout << "  ###" << endl;
 cout  << " #####" << endl;
