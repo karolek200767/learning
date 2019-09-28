@@ -2,6 +2,15 @@
 using namespace std;
 
 //najysuj schody
+void schodki(int wysokosc){
+
+ for (int szerokosc2=0;szerokosc2<wysokosc*2;szerokosc2 = szerokosc2 + 1){
+	cout << "*" ;}	
+	{
+	cout << endl;
+    }
+    
+}
 void karol(){
 	int wysokosc=0;
 	int zadanawysokosc;
@@ -11,16 +20,17 @@ cin >> wysokocschodka;
 
 for (;wysokosc<zadanawysokosc;wysokosc++) {     		
 	for (int schodek=0;schodek<wysokocschodka;schodek++) {
-	for (int szerokosc2=0;szerokosc2<wysokosc*2;szerokosc2 = szerokosc2 + 1){
-	cout << "*" ;	
-	}
-	cout << endl;
+	schodki(wysokosc);	
+	//for (int szerokosc2=0;szerokosc2<wysokosc*2;szerokosc2 = szerokosc2 + 1){
+	//cout << "*" ;	
+	//}
+	//cout << endl;
 	}
  }	
 
 }
 
- 
+	
 int main(int argc, char** argv){
 cout << "podaj wysokosc" << endl;	
 cout << "wysokosc schodka" << endl;	
