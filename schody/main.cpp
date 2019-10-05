@@ -15,7 +15,9 @@ void karol(){
 	int wysokosc=0;
 	int zadanawysokosc;
 	int wysokocschodka;
-cin >> zadanawysokosc;	
+	cout << "podaj wysokosc" << endl;
+cin >> zadanawysokosc;
+cout << "wysokosc schodka" << endl;	
 cin >> wysokocschodka;	
 
 for (;wysokosc<zadanawysokosc;wysokosc++) {     		
@@ -32,8 +34,8 @@ for (;wysokosc<zadanawysokosc;wysokosc++) {
 
 	
 int main(int argc, char** argv){
-cout << "podaj wysokosc" << endl;	
-cout << "wysokosc schodka" << endl;	
+	
+	
 karol();		    		
 
 return 0;
