@@ -1,11 +1,15 @@
 #include <iostream>
 using namespace std;
 
-void wpisz(float &x, float &y){
+void wpisz(float &x, float &y, bool czyDzielenie=false){
 cout << "Podaj x" << endl;
 cin >> x;
 cout << "Podaj y" << endl;
-cin >> y;
+cin >> y;	
+if((y==0)&&(czyDzielenie==true) ){
+cout << "nie morzna dzielic przez zaro podaj inną liczbę" << endl;
+cin >>y;
+}
 cout << "POdales x = " << x << " y = " << y << endl;
 }
 int main(int argc, char** argv){
@@ -38,10 +42,13 @@ wpisz(x,y);
 cout << "" << x << " * " << y << " = " << x*y << endl;		
 }
 if(znak =='4'){
-cout << "Dzielenie" << endl;	
-wpisz(x,y);	
+
+cout << "Dzielenie" << endl;
+wpisz(x,y,true);	
 cout << "" << x << " / " << y << " = " << x/y << endl;
+		}
 	}
-}
+
 return 0;
 }
+

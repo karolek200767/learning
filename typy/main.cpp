@@ -55,7 +55,8 @@ cout << "podaj A" << endl;
 cin >> A;
 cout << "podaj B" << endl;
 cin >> B;
-cout << A+B << endl;     
+cout << A+B << endl;
+     
 float D=0;
 float E=0; 
 cout << "podaj D" << endl;
@@ -63,6 +64,7 @@ cin >> D;
 cout << "podaj E" << endl;
 cin >> E;
 cout << D-E << endl;
+
 float F=0;
 float G=0;
 cout << "podaj F" << endl;
@@ -70,6 +72,7 @@ cin >> F;
 cout << "podaj G" << endl;
 cin >> G;
 cout << F*G << endl;
+
 float H=0;
 float J=0;
 cout << "podaj H" << endl;
@@ -80,5 +83,3 @@ cout << H/J << endl;
 
 return 0;	
 }
-
-
