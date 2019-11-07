@@ -2,9 +2,9 @@
 using namespace std;
 
 int main()
-{
-int wys, punkty_karne;
-
+{	
+int wys, punkty_karne;	
+while (wys>0){
 std::cout <<  " Na jakiej wysokosci lecimy ? [w metrach]: ";
 std::cin >>wys;
 //-----rozwarzamy sytułacje-----
@@ -22,11 +22,13 @@ else
 std::cout<<"\n"<< wys <<" metrow jestes juz bezpieczny \n ";
 punkty_karne = 0;
 }
-std::cout<<" Masz "<< punkty_karne <<" punkt karny \n ";
+if(punkty_karne >=2 ){std::cout<<" Masz "<< punkty_karne;} 
+//if(punkty_karne ,){cout<<" punkty " ;} 
+//if(){cout << "karny \n ";}
 if(punkty_karne) std::cout<<" Popraw sie ! ";
 
 
-
+}
 return 0;
 }
 
