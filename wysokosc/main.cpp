@@ -24,8 +24,8 @@ punkty_karne = 0;
 }
 std::cout<<" Masz "<< punkty_karne; 
 if (punkty_karne ==1){cout<<" punkt karny" ;} 
-if ((punkty_karne >1)&&(wys <5) ){cout<<"punkty karne" ;} 
-if (punkty_karne >=5){cout<<"punktow karnych";}
+if ((punkty_karne >1)&&(punkty_karne <5) ){cout<<" punkty karne" ;} 
+if (punkty_karne >=5){cout<<" punktow karnych";}
 
 //if(){cout << "karny \n ";}
 if(punkty_karne) std::cout<<" Popraw sie ! "<< endl;
