@@ -1,10 +1,13 @@
 #include <iostream>
 using namespace std;
-
+int znak;
 int main()
 {
+cout<< "podaj wielkosc tablicy" << endl;
+cin >>znak;
+cout << znak << endl;	
 int wielkosctablicy = 4;
-int t[wielkosctablicy];
+unsigned int t[wielkosctablicy];
 for(int i = 0 ;i < wielkosctablicy ;i++){	
 cout <<  "wpisz liczbe" << endl;
 cin >> t [i];
