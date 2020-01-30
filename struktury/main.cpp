@@ -11,9 +11,11 @@ int main(){
 film f1;
 cout <<"urzytkowniku podaj nazwe filmu"<< endl;
 cin >> f1.nazwa;
+cout <<"urzytkowniku podaj rok"<<  endl;
 cin >> f1.rok;
+cout <<"nazwa filmu: "<< endl;
 cout <<  f1.nazwa  << endl;
-cout <<  f1.rok  << endl;
-	
+cout <<"rok:"<< endl;
+cout <<  f1.rok  << endl;	
 return 0;	
 }
