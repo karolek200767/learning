@@ -16,6 +16,13 @@ cin >> f1.rok;
 cout <<"nazwa filmu: "<< endl;
 cout <<  f1.nazwa  << endl;
 cout <<"rok:"<< endl;
-cout <<  f1.rok  << endl;	
+cout <<  f1.rok  << endl;
+
+cout <<" L.P| NAZWA | ROK"<< endl;
+cout <<" ----------------"<< endl;
+
+
+
+													
 return 0;	
 }
