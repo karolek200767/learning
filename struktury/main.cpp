@@ -18,11 +18,11 @@ cout <<  f1.nazwa  << endl;
 cout <<"rok:"<< endl;
 cout <<  f1.rok  << endl;
 
-cout <<" L.P| NAZWA | ROK"<< endl;
-cout <<" ----------------"<< endl;
-
-
-
+cout <<" L.P| NAZWA | ROK "<< endl;
+cout <<" ---------------- "<< endl;
+cout <<"  |  " << f1.nazwa <<"      |      "<< f1.rok << endl;
+cout <<"  |          |        "<< endl;
+cout <<"  |          |        "<< endl;
 													
 return 0;	
 }
