@@ -4,11 +4,11 @@ using namespace std;
 struct film{
 string nazwa;
 int rok;
-
 	
 };
 int maks=0;
 film t[100];
+int dlugosc [100];
 int main(){
 film f1;
 int filmow = 0;
@@ -22,7 +22,6 @@ cout <<"urzytkowniku podaj rok"<<  endl;
 cin >> t[i].rok;
 cout <<"nazwa filmu: "<< endl;
 }
-
 for (int i = 0;i < filmow ;i++){
 int tmp=t[i].nazwa.length();
 //if jezeli tmp jest wienkszy od maks to maks=tmp;
@@ -31,14 +30,19 @@ maks=tmp;
 cout << maks << endl;	
  }
 }
+for (int i = 0;i < filmow ;i++){
+dlugosc[i] = t[i].nazwa.length();
+//if jezeli tmp jest wienkszy od maks to maks=tmp;
+}
+
 cout << "najdłurzszy ma"<< endl;
 cout << maks << endl;
 cout <<" L.P| NAZWA | ROK "<< endl;
 cout <<" ---------------- "<< endl;	
 for (int i = 0;i < filmow ;i++){
-cout <<"  |  " << t[i].nazwa <<"  |  "<< t[i].rok << endl;
+cout <<"  |  " << t[i].nazwa <<"  |  "<< t[i].rok << " | "
+ << dlugosc [i] << endl;
 }
-cout <<"najwiencej znakow to"<< endl;
 											
 return 0;	
 }
