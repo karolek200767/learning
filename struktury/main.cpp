@@ -40,8 +40,16 @@ cout << maks << endl;
 cout <<" L.P| NAZWA | ROK "<< endl;
 cout <<" ---------------- "<< endl;	
 for (int i = 0;i < filmow ;i++){
-cout <<"  |  " << t[i].nazwa <<"  |  "<< t[i].rok << " | "
- << dlugosc [i] << endl;
+cout <<"  |  " ;
+int ile = maks-dlugosc[i];
+for (int k = 0;k < ile ;k++){
+	cout<< " " ;
+	}
+cout << t[i].nazwa 
+<<"  |  "
+<< t[i].rok
+<< " | "
+<< dlugosc [i] << endl;
 }
 											
 return 0;	
