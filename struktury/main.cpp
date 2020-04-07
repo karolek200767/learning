@@ -35,18 +35,25 @@ dlugosc[i] = t[i].nazwa.length();
 //if jezeli tmp jest wienkszy od maks to maks=tmp;
 }
 
-cout << "najdÅ‚urzszy ma"<< endl;
+cout << "najd³urzszy ma"<< endl;
 cout << maks << endl;
 cout <<" L.P| NAZWA | ROK "<< endl;
-cout <<" ---------------- "<< endl;	
+for (int pl = 0;pl < maks + 20 ;pl++){
+cout << "-" ;	
+} 
+cout << endl;	
 for (int i = 0;i < filmow ;i++){
-cout <<"  |  " ;
+int lp = i + 1;
+cout << lp <<"  |  " ;
 int ile = maks-dlugosc[i];
+
+cout << t[i].nazwa ;  
+
 for (int k = 0;k < ile ;k++){
 	cout<< " " ;
-	}
-cout << t[i].nazwa 
-<<"  |  "
+}
+
+cout <<"  |  "
 << t[i].rok
 << " | "
 << dlugosc [i] << endl;
@@ -54,3 +61,4 @@ cout << t[i].nazwa
 											
 return 0;	
 }
+
