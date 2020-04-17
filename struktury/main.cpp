@@ -58,7 +58,8 @@ cout <<"  |  "
 << " | "
 << dlugosc [i] << endl;
 }
-											
-return 0;	
+
+return 0;
+ 
 }
 
