@@ -9,12 +9,19 @@ using namespace std;
 void plakat(string s);
 
 int main(){
-	
-string klub1("Wisla");
+	string klub1("Wisla");
 string klub2("Unia");
 
 string mias1("Karakow");
 string mias2 ("Tarnow");
+
+cout <<"Podaj nazwe drozy1";
+cin >> klub1;
+cout <<"Podaj nazwe drozy1";
+cin >> klub2;
+cout <<"Podsaj zawe miasta";	
+cin >>	mias1;
+cout <<"Podsaj zawe miasta";
 
 string polaczenie;
 polaczenie = klub1 + klub2;
@@ -47,7 +54,7 @@ string gwiazdki(tresc.length() + 6,'*');
 cout << gwiazdki <<'\n'<< gwiazdki << "\r"<< "** " << tresc << " **\n"<< gwiazdki << endl;
 }
 
-void dopliku(){
+void dopliku(string tresc){
 string gwiazdki(tresc.length() + 6,'*');
 ofstream zapis("dane.txt");
 zapis << gwiazdki <<'\n'<< gwiazdki << "\r"<< "** " << tresc << " **\n"<< gwiazdki << endl;	
