@@ -15,13 +15,17 @@ string klub2("Unia");
 string mias1("Karakow");
 string mias2 ("Tarnow");
 
-cout <<"Podaj nazwe drozy1";
+cout <<"Podaj nazwe drozy1"<< endl;
 cin >> klub1;
-cout <<"Podaj nazwe drozy1";
+
+cout <<"Podaj nazwe drozy1"<< endl;
 cin >> klub2;
-cout <<"Podsaj zawe miasta";	
+
+cout <<"Podsaj zawe miasta"<< endl;
 cin >>	mias1;
-cout <<"Podsaj zawe miasta";
+
+cout <<"Podsaj zawe miasta"<< endl;
+cin >> mias2;
 
 string polaczenie;
 polaczenie = klub1 + klub2;
