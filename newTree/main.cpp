@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-int zmienna=4;
+int zmienna=6;
 	
 for (int i=0;i<zmienna;i++){
 cout <<"" ;
@@ -15,6 +15,9 @@ for (int o=0;o<i;o++){
 cout <<"*" ;	
 	
 	}
+for (int j=0;j<i;j++){
+cout<< "*" ;	
+}	
 
 cout << endl;		
 }
