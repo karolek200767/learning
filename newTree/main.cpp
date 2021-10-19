@@ -22,6 +22,14 @@ cout<< "*" ;
 cout << endl;		
 }
 
+for (int y=0;y<2;y++){
+cout <<"**"<< endl;
+
+for (int t=0;t<1;t++){
+cout <<"     "; 	
+	} 	
+}
+
 
 	
 	
