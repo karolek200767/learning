@@ -2,8 +2,14 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-int zmienna=6;
-	
+int zmienna=11;
+
+
+cout<<"podaj wysokosc choinki"<< endl; 
+cin>> zmienna;
+
+
+
 for (int i=0;i<zmienna;i++){
 cout <<"" ;
 	
@@ -23,7 +29,7 @@ cout << endl;
 }
 
 for (int y=0;y<2;y++){
-cout <<"**"<< endl;
+cout <<" "<< endl;
 
 for (int t=0;t<1;t++){
 cout <<"     "; 	
