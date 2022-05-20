@@ -48,26 +48,29 @@ cout << "" << q << "*" << e << "=" << q*e << endl;
 }
 
 if(znak == '4'){
-	
+		
 cout<<"Podaj dzialanie"<<endl;
 cin>>q;
 cin>>e;	
-	
-if(e==0){
-	
-	std::cout << "nie mozna dzielic przez zero" << std::endl;	
-}else{
 
+while (e == 0){
+	if(e==0){
+		std::cout << "nie mozna dzielic przez zero" << std::endl;
+		cout<<"podaj nowe e" << endl; 
+		cin>> e; 	
+	}
+}
 	std::cout <<"nie dzielisz przez zero " << std::endl;
 	
 cout << "" << q << "/" << e << "=" << q/e << endl;
 	
-std::cout <<"Koniec" << endl; 	 
-}
 
+
+
+				
 			}
-
+ 
 }
-
+std::cout <<"Koniec" << endl; 	
 	return 0;
 }
